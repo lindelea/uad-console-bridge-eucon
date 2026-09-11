@@ -1,0 +1,36 @@
+name: Bug report · 错误报告 · 不具合報告
+description: Report a reproducible problem with the application.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Application version · 应用版本 · アプリバージョン
+      placeholder: v1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Equipment and software · 设备与软件 · 機器とソフトウェア
+      description: Windows version, surface/controller/interface model, driver, EuControl or UAD Software version as applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce · 复现步骤 · 再現手順
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result · 预期与实际结果 · 期待結果と実際の結果
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots · 日志或截图 · ログまたは画像
+      description: Review logs before uploading; they may contain local application, device, channel, or plug-in names.
