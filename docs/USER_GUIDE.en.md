@@ -47,14 +47,14 @@ The bridge waits for a late UAD Mixer Engine or EUCON service and reconnects aut
 - Sends / Cues: supported send level and pan with engineering-unit feedback.
 - Input / Preamp: supported gain, input, pad, phantom power, polarity, HPF, and related controls.
 - Inserts / UNISON: parameters of already loaded plug-ins. Touching or turning an encoder shows the parameter's real value rather than a percentage.
-- CONFIG: select or remove a plug-in and recall presets already present in Console. Turn to choose and press `In` to confirm.
+- CONFIG: displays the current plug-in configuration. Plug-in selection and insertion from Avid Control/S3 are not a supported v1.1.0 feature; load or replace plug-ins in UAD Console.
 - Meters: native Console dBFS data delivered to the app and EUCON as quickly as possible.
 
 Each channel exposes only the features it actually supports. If device or plug-in topology changes, stale page actions are discarded and controls bind to the newest Console state.
 
 ## Control room
 
-The control room is separate and does not consume a normal channel fader. It includes main monitor level, MUTE, DIM, MONO, monitor source, DIM depth, and TALKBACK. Main level is a continuous real-time control; it is not held until the gesture ends.
+The control room is separate and does not consume a normal channel fader. It includes main monitor level, MUTE, DIM, MONO, Mix/Cue source selection, Main/ALT1/ALT2 monitor sets, DIM depth, TALKBACK, and Talk dB. Main level and Talk dB are continuous real-time controls. Avid Control also shows a `Main` entry in Speaker Select; it performs the same real main-monitor action as the Main set button.
 
 The monitor ceiling in Settings limits only targets sent by this bridge. It does not limit Console, Apollo hardware, or acoustic SPL and may be set as high as 0 dB.
 
@@ -76,7 +76,7 @@ Closing the window normally hides it in the notification area. Use the tray menu
 
 **The level changes but the fader rebounds:** open Settings and apply the current control scope again so the bridge records the device identity created by a driver reinstall, then restart the bridge once.
 
-**A plug-in or CONFIG item is missing:** confirm that the Console channel supports the slot or feature and that CONFIG is enabled. Some CONFIG exposure changes take effect after restarting this bridge.
+**A plug-in or CONFIG item is missing:** v1.1.0 does not formally support selecting or inserting plug-ins from Avid Control/S3. Do that in UAD Console; parameters of already loaded plug-ins remain controllable through EUCON.
 
 **Uninstall:** use Windows Settings → Apps → Installed apps. Personal settings are retained for reinstall.
 
