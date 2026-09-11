@@ -8,6 +8,8 @@ UAD Console の Apollo DSP ミキサーを、独立した EUCON アプリケー�
 
 オーディオ処理は Apollo DSP と UAD Console が行います。本アプリはリアルタイムの操作とフィードバックを担当し、Console やオーディオドライバーを置き換えません。
 
+![UAD Console Bridge の概要画面](images/overview.png)
+
 ## 動作条件
 
 - 64 ビット版 Windows 11。
@@ -30,6 +32,8 @@ UAD Console の Apollo DSP ミキサーを、独立した EUCON アプリケー�
 3. 本アプリを起動します。概要にインターフェース、サンプルレート、チャンネルが表示され、EUCON が Ready になれば操作できます。
 4. 設定で必要なコントロール範囲を選び、保存します。UAD ドライバー再インストール後に Apollo が新しい機器として認識された場合は、範囲をもう一度適用するだけで、本アプリの再インストールは不要です。
 5. `Ctrl+Alt+Shift+U` を押すと本アプリが前面に出て、EuControl の現在アプリになります。認識後にバックグラウンドへ戻すかは設定で選べます。
+
+![コントロール範囲の設定](images/control.png)
 
 既定キーは重複しません。Windows EUCON は `Ctrl+Alt+Shift+W`、UAD EUCON は `Ctrl+Alt+Shift+U`、Mackie Control は `Ctrl+Alt+Shift+M` です。EuControl の Soft Key に **Windows EUCON** と **UAD EUCON** コマンドを割り当てることもできます。
 

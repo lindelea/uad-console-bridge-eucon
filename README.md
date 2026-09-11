@@ -2,25 +2,45 @@
 
 # UAD Console Bridge for EUCON
 
-Control the UAD Console DSP mixer from an Avid EUCON surface or Avid Control.
+<p align="center"><a href="#简体中文">简体中文</a> ・ <a href="#english">English</a> ・ <a href="#日本語">日本語</a></p>
 
-**[Download v1.0.0](https://github.com/lindelea/uad-console-bridge-eucon/releases/latest)**
+<p align="center"><strong><a href="https://github.com/lindelea/uad-console-bridge-eucon/releases/latest">下载 / Download / ダウンロード v1.0.0</a></strong></p>
 
-No build tools are required. Download the installer and use your existing UAD and EUCON setup.
+![UAD Console Bridge for EUCON overview](docs/images/overview.png)
 
-[简体中文使用手册](docs/USER_GUIDE.zh-CN.md) ・ [English User Guide](docs/USER_GUIDE.en.md) ・ [日本語ユーザーガイド](docs/USER_GUIDE.ja.md)
+## 简体中文
 
-![Application overview](docs/images/overview.jpg)
+在 Avid S3、Avid Control 或其他兼容 EUCON 控制台上，直接控制 UAD Console 的 Apollo DSP 混音器。
 
-The bridge exposes Apollo channels, sends, plug-ins, preamps and the control room as a dedicated EUCON application. Continuous audio controls and meter feedback are handled in real time; UAD Console and Apollo continue to process the audio.
+- 实时控制通道、发送、前级、已加载插件和控制室，并获得电平与状态反馈。
+- 参数显示 dB、Hz 等真实工程单位，不用百分比代替混音数值。
+- 支持在 UAD、Windows 音频与 DAW 之间切换 EUCON 焦点。
+- 无需编译；需要 Windows 11 x64、UAD Console 和 EuControl 2026.4。
 
-## UAD Console control from Avid S3 and Avid Control
+**[简体中文完整使用手册](docs/USER_GUIDE.zh-CN.md)**
 
-- Mix Apollo Console channels from a EUCON control surface.
-- Operate sends, preamps, UAD plug-ins, UNISON, and CONFIG pages.
-- Control the monitor section, DIM, MONO, source, and talkback.
-- Switch EUCON focus between UAD Console control and a DAW without sharing control state.
+## English
 
-Requirements: Windows 11 x64, a working Apollo/UAD Console installation, and Avid EuControl / EUCON Workstation 2026.4. Tested with Apollo, Avid S3 and Avid Control.
+Control the Apollo DSP mixer in UAD Console directly from an Avid S3, Avid Control, or another compatible EUCON surface.
 
-This repository is for downloads and user documentation. The corresponding v1.0.0 source is available in the [development project](https://github.com/lindelea/windows-fader-bridge/tree/v1.0.0). Licensed under [MPL 2.0](LICENSE). This independent project is not affiliated with or endorsed by Universal Audio or Avid.
+- Real-time control and feedback for channels, sends, preamps, loaded plug-ins, and the control room.
+- Parameters use real engineering units such as dB and Hz rather than generic percentages.
+- Switch EUCON focus between UAD, Windows audio, and a DAW.
+- No build tools required; needs Windows 11 x64, UAD Console, and EuControl 2026.4.
+
+**[Complete English User Guide](docs/USER_GUIDE.en.md)**
+
+## 日本語
+
+Avid S3、Avid Control、または互換 EUCON サーフェスから、UAD Console の Apollo DSP ミキサーを直接操作します。
+
+- チャンネル、センド、プリアンプ、ロード済みプラグイン、コントロールルームをリアルタイムに操作・表示。
+- パラメーターはパーセントではなく、dB や Hz などの実単位で表示します。
+- UAD、Windows オーディオ、DAW の間で EUCON フォーカスを切り替えられます。
+- ビルド不要。Windows 11 x64、UAD Console、EuControl 2026.4 が必要です。
+
+**[日本語の完全なユーザーガイド](docs/USER_GUIDE.ja.md)**
+
+## License and source ・ 许可与源代码 ・ ライセンスとソース
+
+This user-facing repository contains downloads and manuals. The exact v1.0.0 source is in the [development project](https://github.com/lindelea/windows-fader-bridge/tree/v1.0.0). Licensed under [MPL 2.0](LICENSE). This independent project is not affiliated with or endorsed by Universal Audio or Avid.

@@ -8,6 +8,8 @@
 
 音频仍由 Apollo DSP 和 UAD Console 处理。本程序只负责实时控制与反馈，不替代 Console，不改变音频驱动。
 
+![UAD Console Bridge 总览页](images/overview.png)
+
 ## 使用前准备
 
 - Windows 11 64 位。
@@ -30,6 +32,8 @@
 3. 启动本程序。总览页出现声卡、采样率和通道后，说明已读到 Console；EUCON 状态就绪后即可控制。
 4. 在设置中选择需要的控制范围并保存。驱动重装后如果 Apollo 被 Windows 识别为新设备，只需重新应用一次控制范围，不必重装本程序。
 5. 按 `Ctrl+Alt+Shift+U` 可把本程序调到前台并让 EuControl 识别为当前应用。是否识别后回到后台由设置决定。
+
+![控制范围设置](images/control.png)
 
 三个相关应用可以同时运行，默认快捷键互不冲突：Windows EUCON 为 `Ctrl+Alt+Shift+W`，UAD EUCON 为 `Ctrl+Alt+Shift+U`，Mackie Control 为 `Ctrl+Alt+Shift+M`。也可以在 EuControl Soft Keys 中分配 **Windows EUCON** 与 **UAD EUCON** 命令。
 

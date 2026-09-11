@@ -8,6 +8,8 @@ The app publishes the Apollo DSP mixer in UAD Console as a dedicated EUCON appli
 
 Audio remains inside Apollo DSP and UAD Console. The bridge provides real-time control and feedback; it does not replace Console or alter the audio driver.
 
+![UAD Console Bridge overview](images/overview.png)
+
 ## Requirements
 
 - Windows 11, 64-bit.
@@ -30,6 +32,8 @@ The project does not currently have a paid Windows code-signing certificate, so 
 3. Start the bridge. Once the overview shows interfaces, sample rate, and channels and EUCON reports ready, control is available.
 4. Choose the required control scope in Settings and save it. If reinstalling the UAD driver makes Apollo appear as a new device, apply the scope once again; the bridge does not need reinstalling.
 5. Press `Ctrl+Alt+Shift+U` to bring the bridge forward and make it the current EuControl application. Settings decide whether it returns to the background after recognition.
+
+![Control-scope settings](images/control.png)
 
 The companion defaults do not conflict: Windows EUCON uses `Ctrl+Alt+Shift+W`, UAD EUCON uses `Ctrl+Alt+Shift+U`, and Mackie Control uses `Ctrl+Alt+Shift+M`. **Windows EUCON** and **UAD EUCON** commands can also be assigned to EuControl Soft Keys.
 
