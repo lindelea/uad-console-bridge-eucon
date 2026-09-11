@@ -13,3 +13,6 @@ First public user release. Includes a Windows 11 x64 installer, English/Chinese 
 一般ユーザー向け初回正式リリースです。Windows 11 x64 インストーラー、中英対応アプリ画面、中英日ユーザーガイドを収録しています。Apollo チャンネル、センド、プリアンプ、プラグイン、UNISON、CONFIG、コントロールルームを EUCON からリアルタイム操作し、dBFS メーターを表示します。Apollo、Avid S3、Avid Control で確認済みで、UAD/EUCON の起動が遅い場合も自動待機・再接続します。
 
 The installer and application are currently unsigned. Verify the SHA-256 value shown below after downloading.
+
+`UAD-Console-Bridge-for-EUCON-v1.0.0-Setup-x64.exe`  
+SHA-256: `412D526E47534FDD5640E7337D536146F08DAE28477FF77B265708011308D881`
