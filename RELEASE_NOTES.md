@@ -1,3 +1,33 @@
+# v1.1.1
+
+## 简体中文
+
+修正桥接器检查后台程序时的稳定性隐患。连接正常后不再每秒扫描进程，并替换了此前崩溃调用栈涉及的进程快照查询方式；启动与断线恢复时仍保留冲突检查和自动重试。推子、旋钮、控制室和峰值反馈逻辑不变，不增加人为操作延迟。
+
+退出旧版后覆盖安装即可，原有设置保留。本次更新针对已发现的应用程序稳定性问题，尚不能确认消除了 Windows 系统蓝屏的根因。
+
+## English
+
+Improves stability in the bridge's background-process check. Once the EUCON adapter is connected, the bridge no longer scans processes every second. The process-snapshot query seen in an earlier application crash has been replaced, while startup/reconnection conflict checks and automatic retries remain. Fader, knob, control-room and meter behavior is unchanged, with no deliberate control latency added.
+
+Close the old version and install over it; your settings are preserved. This update addresses identified application stability issues. It does not establish that the underlying cause of Windows blue screens has been resolved.
+
+## 日本語
+
+バックグラウンドプロセス確認処理の安定性を改善しました。EUCON アダプターの接続中は毎秒のプロセス走査を行わず、過去のアプリクラッシュの呼び出し経路に含まれていたスナップショット方式も置き換えました。起動・再接続時の競合確認と自動再試行は維持しています。フェーダー、ノブ、コントロールルーム、メーターの動作は変更せず、意図的な操作遅延も追加していません。
+
+旧版を終了してから上書きインストールしてください。設定は引き継がれます。本更新は確認できたアプリの安定性問題に対するもので、Windows のブルースクリーンの根本原因が解消したことを示すものではありません。
+
+The installer and application are currently unsigned. Verify the SHA-256 value shown below after downloading.
+
+`UAD-Console-Bridge-for-EUCON-v1.1.1-Setup-x64.exe`
+SHA-256: `635C0E9AE9042C51FCB412A4BE5CBF7D1E811F8ABCF323963B879581FF0176A8`
+
+- [User guides / 使用手册 / ユーザーガイド](https://github.com/lindelea/uad-console-bridge-eucon)
+- [Exact source for v1.1.1](https://github.com/lindelea/windows-fader-bridge/tree/uad-eucon-v1.1.1)
+
+---
+
 # v1.1.0
 
 ## 简体中文

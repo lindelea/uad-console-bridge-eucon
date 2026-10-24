@@ -4,7 +4,7 @@
 
 <p align="center"><a href="#简体中文">简体中文</a> ・ <a href="#english">English</a> ・ <a href="#日本語">日本語</a></p>
 
-<p align="center"><strong><a href="https://github.com/lindelea/uad-console-bridge-eucon/releases/latest">下载 / Download / ダウンロード v1.1.0</a></strong></p>
+<p align="center"><strong><a href="https://github.com/lindelea/uad-console-bridge-eucon/releases/latest">下载 / Download / ダウンロード v1.1.1</a></strong></p>
 
 ![UAD Console Bridge for EUCON overview](docs/images/overview.png)
 
@@ -46,4 +46,4 @@ Avid S3、Avid Control、または互換 EUCON サーフェスから、UAD Conso
 
 ## License and source ・ 许可与源代码 ・ ライセンスとソース
 
-This user-facing repository contains downloads and manuals. The exact v1.1.0 source is in the [development project](https://github.com/lindelea/windows-fader-bridge/tree/v1.1.0). Licensed under [MPL 2.0](LICENSE). This independent project is not affiliated with or endorsed by Universal Audio or Avid.
+This user-facing repository contains downloads and manuals. The exact v1.1.1 source is in the [development project](https://github.com/lindelea/windows-fader-bridge/tree/uad-eucon-v1.1.1). Licensed under [MPL 2.0](LICENSE). This independent project is not affiliated with or endorsed by Universal Audio or Avid.
